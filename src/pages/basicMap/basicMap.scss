@@ -1,0 +1,57 @@
+#banner_basicMap{
+    // height: calc(100vh - 155px);
+    min-height: calc(100vh - 155px);
+    .container{
+        padding-top: 38px;
+        padding-bottom: 45px;
+        h2{
+            text-align: center;
+            font-size:30px;
+            color:rgba(0,0,0,1);
+        }
+        .basicMapImg{
+            li{
+                width:20%;
+                margin-bottom: 24px;
+
+                .imgBigBox{
+                    width:225px;
+                    height:225px;
+                    background:rgba(255,255,255,1);
+                    cursor: pointer;
+
+                    &:hover{
+                        box-shadow:0px 0px 16px 0px rgba(0, 0, 0, 0.15);
+                        .imgBox{
+                            border:10px solid #fff;
+                            img{
+                                border: none;
+                            }
+                        }
+                    }
+                    .imgBox{
+                        background-color: #555555;
+                        box-sizing: border-box;
+                        width:225px;
+                        height:184px;
+                        margin-bottom: 6px;
+                        transition: border .5s;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border: none;
+                        }
+                    }
+                    h3{
+                        text-align: center;
+                        font-size:14px;
+                        color:rgba(34,34,34,1);
+                    }
+                }
+            }
+        }
+        .divide_basicMap{
+            margin-right: 10px;
+        }
+    }
+}

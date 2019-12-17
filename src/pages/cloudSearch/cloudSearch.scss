@@ -1,0 +1,215 @@
+#banner_cloudSearch{
+    color:#fff;
+    overflow: hidden;
+    .container{
+        height: 480px;
+        padding:115px 0 0 43px;
+        position: relative;
+        h2{
+            font-size:40px;
+            font-weight:600;
+            margin-bottom:20px;
+            color:#fff;
+        }
+        .application{
+            font-size:20px;
+            font-weight:600;
+            color:rgba(255,255,255,1);
+            line-height:48px;
+            margin-bottom:18px;
+
+            span{
+                display:inline-block;
+                padding:0 16px;
+                height:32px;
+                line-height: 32px;
+                border:1px solid #00FCFF;
+                border-radius:16px;
+                font-size:18px;
+                color:#00FCFF;
+                margin-right:6px;
+                &:first-of-type{
+                    margin-left:18px;
+                }
+            }
+        }
+        p{
+            font-size:16px;
+            line-height:28px;
+            width: 436px;
+        }
+        .cloudSearchImg{
+            position: absolute;
+            top: 43px;
+            right: 0;
+        }
+    }
+}
+#func_cloudSearch{
+    background-color:#fff;
+    .container{
+        height:544px;
+        padding: 65px 0 0 0;
+    }
+    h2{
+        font-size:30px;
+        line-height:48px;
+        text-align: center;
+    }
+    h3{
+        font-size:18px;
+        color:rgba(75,75,75,1);
+        text-align: center;
+        line-height:48px;
+        margin-bottom: 40px;
+    }
+    ul{
+        li{
+            width: 25%;
+            height: 280px;
+            text-align: center;
+            box-sizing: border-box;
+            .imgBigBox{
+                box-sizing: border-box;
+                width:280px;
+                height:281px;
+                background:rgba(255,255,255,1);
+                border:1px solid rgba(242, 242, 242, 1);
+                margin:0 auto;
+                &:hover{
+                    box-shadow:0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+                }
+                .imgSmallBox{
+                    height:180px;
+                    background-color: #ccc;
+                    margin-bottom: 8px;
+                }
+                h3{
+                    font-size:20px;
+                    color:rgba(34,34,34,1);
+                    text-align: center;
+                    margin: 0;
+                }
+                h4{
+                    font-size:14px;
+                    color:rgba(124,126,125,1);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+#data_cloudSearch{
+    background-color: #FCEBAB;
+    .container{
+        height:530px;
+        padding-top: 64px;
+        p{
+            margin-bottom: 0;
+        }
+    }
+    h2{
+        font-size:30px;
+        line-height:48px;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+    .dataBigBox{
+        padding: 0 88px;
+    }
+    .dataSmallBox{
+        box-sizing: border-box;
+        width:452px;
+        height:160px;
+        padding: 30px 44px 0 44px;
+        background:linear-gradient(-90deg,rgba(255,180,25,1),rgba(252,114,91,1));
+        border-radius:10px;
+        &:nth-of-type(1){
+            transform: translateY(87px);
+        }
+        &:nth-of-type(2){
+            text-align: right;
+        }
+        h3{
+            font-size:20px;
+            font-weight:600;
+            padding-bottom: 18px;
+            margin-bottom: 18px;
+            color:rgba(255,255,255,1);
+            border-bottom: 1px dashed rgba(255,255,255,.5);
+        }
+        p{
+            font-size:16px;
+            color:rgba(255,255,255,1);
+            line-height:22px;
+        }
+    }
+}
+#time_cloudSearch{
+    color: #fff;
+    .container{
+        height:639px;
+        padding:139px 88px 0 88px  ;
+    }
+    h3{
+        font-size:30px;
+        color:rgba(34,34,34,1);
+        margin-top: 134px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size:16px;
+        color:rgba(75,75,75,1);
+        line-height:36px;
+        padding-left: 6px;
+        span{
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-color: #FF6600;
+            transform: rotateZ(45deg);
+            margin-right: 10px;
+        }
+    }
+    .fr{
+        width: 412px;
+        height: 418px;
+    }
+
+}
+#imgBox_cloudSearch{
+    background-color: #F6F6F8;
+    .container{
+        height:365px;
+        margin:91px auto 46px;
+        position: relative;
+        .imgBox_cloudSearch_child{
+            position: absolute;
+            box-sizing: border-box;
+            width:787px;
+            height:456px;
+            top: -91px;
+            background:rgba(210,210,210,1);
+            border:10px solid rgba(255, 255, 255, 1);
+            box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+            img{
+                transform: translate(-26px, -26px);
+            }
+        }
+        .introduce{
+            margin-left: 817px;
+            transform: translateY(198px);
+            h3{
+                font-size:30px;
+                color:rgba(34,34,34,1);
+                margin-bottom: 20px;
+            }
+            p{
+                width:369px;
+                font-size:16px;
+                color:rgba(75,75,75,1);
+                line-height:28px;
+            }
+        }
+    }
+}

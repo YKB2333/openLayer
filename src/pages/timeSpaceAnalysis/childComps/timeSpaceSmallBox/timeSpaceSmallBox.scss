@@ -1,0 +1,35 @@
+.timeSpaceSmallBox{
+    .imgBox{
+        width:133px;
+        height:144px;
+        border-radius:50%;
+        margin-bottom: 22px;
+    }
+    h2{
+        font-size:30px;
+        color:rgba(34,34,34,1);
+        line-height:48px;
+        margin-bottom: 14px;
+        padding-left: 17px;
+    }
+    p{
+        font-size:16px;
+        color:rgba(75,75,75,1);
+        line-height:28px;
+        margin-bottom: 18px;
+        padding-left: 17px;
+    }
+    a{
+        display: inline-block;
+        text-align: center;
+        width:80px;
+        height:32px;
+        background:rgba(255,102,0,1);
+        border-radius:6px;
+        font-size:16px;
+        color:rgba(255,255,255,1);
+        line-height:32px;
+        margin-left: 18px;
+
+    }
+}

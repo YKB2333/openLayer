@@ -1,0 +1,8 @@
+export { default as Home } from "./home"
+export { default as Timespaceanalysis } from "./timeSpaceAnalysis"
+export { default as Newmap } from "./map"
+export { default as Cloudsearch } from "./cloudSearch"
+export { default as Onlinemapping } from "./onlineMapping"
+export { default as Datavisualization } from "./dataVisualization"
+export { default as Onlineprinting } from "./onlinePrinting"
+export { default as Basicmap } from "./basicMap"

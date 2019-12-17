@@ -1,0 +1,1 @@
+export { Headnav,Footintro } from "./content" ;

@@ -1,0 +1,113 @@
+#banner_timeSpace{
+    color:#fff;
+    background:linear-gradient(52deg,rgba(61,50,156,1),rgba(2,7,81,1));
+    overflow: hidden;
+    .container{
+        height: 480px;
+        padding:115px 0 0 43px;
+        position: relative;
+        h2{
+            font-size:40px;
+            font-weight:600;
+            margin-bottom:20px;
+            color: #fff;
+        }
+        .application{
+            font-size:20px;
+            font-weight:600;
+            color:rgba(255,255,255,1);
+            line-height:48px;
+            margin-bottom:18px;
+
+            span{
+                display:inline-block;
+                padding:0 16px;
+                height:32px;
+                line-height: 32px;
+                border:1px solid rgba(255, 102, 0, 1);
+                border-radius:16px;
+                font-size:18px;
+                color:rgba(255,102,0,1);
+                margin-right:6px;
+                &:first-of-type{
+                    margin-left:18px;
+                }
+            }
+        }
+        p{
+            font-size:16px;
+            line-height:28px;
+            width: 436px;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}
+#room_timeSpace{
+    background-color:#fff;
+    .container{
+        height:597px;
+        padding: 130px 0 0 117px;
+        position: relative;
+        .duowei{
+            position: absolute;
+            top: 24px;
+            right: 0;
+        }
+    }
+}
+#area_timeSpace{
+    background-color:#F6F6F8;
+    .container{
+        height: 600px;
+        padding: 104px 0 0 811px;
+        position: relative;
+        .quyu{
+            position: absolute;
+            top: 0;
+            left: -94px;
+        }
+    }
+}
+#dimension{
+    color: #fff;
+    .container{
+        height: 600px;
+        padding: 130px 0 0 117px;
+        position: relative;
+        overflow: hidden;
+        p{
+            position: relative;
+        }
+        .dagou{
+            position: absolute;
+            display:inline-block;
+            width: 30px;
+            height: 30px;
+            top:0;
+            left:-24px;
+            background-color: #FF6600;
+        }
+        .duowei{
+            position: absolute;
+            top: 0;
+            right: -80px;
+        }
+    }
+}
+#district{
+    background-color: #F6F6F8;
+    .container{
+        position: relative;
+        height: 600px;
+        padding: 104px 0 0 811px;
+        .district2{
+            position: absolute;
+            top: 98px;
+            left: 0;
+        }
+    }
+}
